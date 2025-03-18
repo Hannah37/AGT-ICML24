@@ -36,7 +36,7 @@ With the same main.py script, you can run other baseline models listed below.
 * SVM
 * MLP
 * GCN (Kipf & Welling, ICLR 2017)
-* GAT (Veliˇckovi´c et al., ICLR 2018)
+* GAT (Veličković et al., ICLR 2018)
 * GDC (Gasteiger et al., NeurIPS 2019)
 * GraphHeat (Xu et al., IJCAI 2019)
 * ADC (Zhao et al., NeurIPS 2021)
