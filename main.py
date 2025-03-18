@@ -48,7 +48,6 @@ def get_args():
     ### Parameters for training GAT 
     parser.add_argument('--num_head_attentions', type=int, default=16, help='Number of head attentions')
     parser.add_argument('--alpha', type=float, default=0.1, help='Alpha for the leaky relu')
-    args = parser.parse_args()
 
     ### Parameters for training Exact 
     parser.add_argument('--use_t_local', type=int, default=1, help='Whether t is local or global (0:global / 1:local)')
@@ -57,6 +56,7 @@ def get_args():
     parser.add_argument('--t_lambda', type=float, default=1, help='t lambda of loss function')
     parser.add_argument('--t_threshold', type=float, default=0.1, help='t threshold')
     
+    args = parser.parse_args()
     return args
 
 ### Control the randomness of all experiments
